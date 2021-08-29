@@ -17,9 +17,9 @@
 DEVICE_PATH := device/realme/RMX1821
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/exthm_RMX1821.mk 
+    $(LOCAL_DIR)/dot_RMX1821.mk 
 
 COMMON_LUNCH_CHOICES := \
-    exthm_RMX1821-user \
-    exthm_RMX1821-userdebug \
-    exthm_RMX1821-eng
+    dot_RMX1821-user \
+    dot_RMX1821-userdebug \
+    dot_RMX1821-eng
