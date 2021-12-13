@@ -399,4 +399,7 @@
     <!-- Should the pinner service pin the Home application? -->
     <bool name="config_pinnerHomeApp">false</bool>
 
+    <!-- Exempt ImsService from privacy (location) indicators -->
+    <string name="config_systemAudioIntelligence" translatable="false">com.mediatek.ims</string>
+
 </resources>
