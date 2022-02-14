@@ -19,22 +19,20 @@ Front Camera | 13 MP, f/2.0, (wide), 1/3.1", 1.12µm
 
 ---
 
-This device tree can be used to build dotOS Android11 for Realme 3/3i devices with RealmeUI vendor
+This device tree can be used to build Aosp Android12 for Realme 3/3i devices with RealmeUI vendor
 
-## Applying [patches](https://github.com/NaissAA/android_device_realme_RMX1821/tree/dot11/patches) in their respective directories of ROM source is mandatory.
+## Applying [patches](https://github.com/NaissAA/device_realme_RMX1821/tree/aosp-12/patches) in their respective directories of ROM source is mandatory.
 
 ## For IMS,
-## clone [vendor_mediatek_ims](https://github.com/Los-FE/vendor_mediatek_ims) into vendor/mediatek/ims and
-## clone [vendor_mediatek_interfaces](https://github.com/Los-FE/vendor_mediatek_interfaces) into vendor/mediatek/interfaces
+## clone [vendor_mediatek-ims](https://github.com/NaissAA/vendor_mediatek-ims) into vendor/mediatek-ims
 ```
-git clone https://github.com/Los-FE/vendor_mediatek_ims vendor/mediatek/ims
-git clone https://github.com/Los-FE/vendor_mediatek_interfaces vendor/mediatek/interfaces
+git clone https://github.com/NaissAA/vendor_mediatek-ims vendor/mediatek-ims
 ```
 
-## For Reame Parts : clone [android_packages_apps_RealmeParts](https://github.com/NaissAA/android_packages_apps_RealmeParts) into packages/apps/RealmeParts
+## For Reame Parts : clone [android_packages_apps_RealmeParts](https://github.com/Realme-G70-Series/android_packages_apps_RealmeParts) into packages/apps/RealmeParts
 ```
-git clone https://github.com/NaissAA/android_packages_apps_RealmeParts -b lineage-18.1 packages/apps/RealmeParts
+git clone https://github.com/Realme-G70-Series/android_packages_apps_RealmeParts -b aosp12 packages/apps/RealmeParts
 ```
 ## For Realme Dirac : clone [android_packages_apps_RealmeDirac](https://github.com/techyminati/android_packages_apps_RealmeDirac) into packages/apps/RealmeDirac
 ```
-git clone https://github.com/techyminati/android_packages_apps_RealmeDirac -b master packages/apps/RealmeDirac
+git clone https://github.com/techyminati/android_packages_apps_RealmeDirac -b lineage-19.0 packages/apps/RealmeDirac
