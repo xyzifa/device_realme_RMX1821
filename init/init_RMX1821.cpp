@@ -142,8 +142,8 @@ void vendor_load_properties()
     init_variant_specific_props();
 
     // fingerprint
-    property_override("ro.build.description", "coral-user 12 SQ1A.220205.002 8010174 release-keys");
-    property_override_prop("ro.build.fingerprint", "google/coral/coral:12/SQ1A.220205.002/8010174:user/release-keys");
+    property_override("ro.build.description", "raven-user 12 S3B1.220218.004 8242181 release-keys");
+    property_override_prop("ro.build.fingerprint", "google/raven/raven:12/S3B1.220218.004/8242181:user/release-keys");
 
     // Workaround SafetyNet
     workaround_snet_properties();
