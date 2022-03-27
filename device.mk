@@ -72,8 +72,8 @@ PRODUCT_PACKAGES += \
     perf_profile.sh
 
 # Doze
-PRODUCT_PACKAGES += \
-    RealmeDoze
+#PRODUCT_PACKAGES += \
+#    RealmeDoze
 
 # Fingerprint
 PRODUCT_PACKAGES += \
